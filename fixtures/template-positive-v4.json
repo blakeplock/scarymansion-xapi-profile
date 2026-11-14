@@ -1,0 +1,3600 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000000001",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/started",
+      "display": {
+        "en-US": "started"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/session/test-1",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/session",
+        "name": {
+          "en-US": "session"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "session-started"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000002",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/entered",
+      "display": {
+        "en-US": "entered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/room/test-2",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+        "name": {
+          "en-US": "room"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "room-entered"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000003",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/explored",
+      "display": {
+        "en-US": "explored"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/room/test-3",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+        "name": {
+          "en-US": "room"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "room-explored"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000004",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/ascended",
+      "display": {
+        "en-US": "ascended"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/staircase/test-4",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/staircase",
+        "name": {
+          "en-US": "staircase"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "stair-ascended"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000005",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/descended",
+      "display": {
+        "en-US": "descended"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/staircase/test-5",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/staircase",
+        "name": {
+          "en-US": "staircase"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "stair-descended"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000006",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "display": {
+        "en-US": "collected"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/test-6",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "item"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "key-collected"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000007",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "display": {
+        "en-US": "collected"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/test-7",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "item"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "amulet-collected"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000008",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "display": {
+        "en-US": "collected"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/test-8",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "item"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "candle-collected"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000009",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "display": {
+        "en-US": "collected"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/test-9",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "item"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "antidote-collected"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000010",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/unlocked",
+      "display": {
+        "en-US": "unlocked"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/door/test-10",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/door",
+        "name": {
+          "en-US": "door"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "door-unlocked"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000011",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/attempted",
+      "display": {
+        "en-US": "attempted"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/door/test-11",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/door",
+        "name": {
+          "en-US": "door"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "door-blocked"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000012",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/discovered",
+      "display": {
+        "en-US": "discovered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/door/test-12",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/door",
+        "name": {
+          "en-US": "door"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "hidden-passage"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000013",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "display": {
+        "en-US": "encountered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/test-13",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "enemy"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "ghost-encounter"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000014",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "display": {
+        "en-US": "encountered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/test-14",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "enemy"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "spider-encounter"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000015",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "display": {
+        "en-US": "encountered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/test-15",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "enemy"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "banshee-encounter"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000016",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "display": {
+        "en-US": "suffered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/effect/test-16",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+        "name": {
+          "en-US": "damage"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/example-ghost-hit",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+            "name": {
+              "en-US": "monster"
+            }
+          }
+        },
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "ghost-hit"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000017",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/moved",
+      "display": {
+        "en-US": "moved"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/room/test-17",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+        "name": {
+          "en-US": "destination room"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/example-ghost-relocation",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+            "name": {
+              "en-US": "ghost"
+            }
+          }
+        },
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/from": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/room/previous-room",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+            "name": {
+              "en-US": "previous room"
+            }
+          }
+        },
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "ghost-relocation"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000018",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "display": {
+        "en-US": "suffered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/effect/poisoning",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+        "name": {
+          "en-US": "poisoning"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/spider",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+            "name": {
+              "en-US": "spider"
+            }
+          }
+        },
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "spider-bitten"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000019",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "display": {
+        "en-US": "suffered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/effect/test-19",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+        "name": {
+          "en-US": "slowing"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/example-banshee-slowed",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+            "name": {
+              "en-US": "banshee"
+            }
+          }
+        },
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "banshee-slowed"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000020",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/used",
+      "display": {
+        "en-US": "used"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/test-20",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "antidote"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "antidote-used"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000021",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/evaded",
+      "display": {
+        "en-US": "evaded"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/test-21",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "enemy"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "enemy-evaded"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000022",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "display": {
+        "en-US": "experienced"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/haunting/test-22",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+        "name": {
+          "en-US": "haunting"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "blackout"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000023",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/lost",
+      "display": {
+        "en-US": "lost"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/effect/test-23",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+        "name": {
+          "en-US": "candle illumination"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "candle-extinguished"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000024",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/restored",
+      "display": {
+        "en-US": "restored"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/fusebox/test-24",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/fusebox",
+        "name": {
+          "en-US": "fusebox"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "power-restored"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000025",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/approached",
+      "display": {
+        "en-US": "approached"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/fusebox/test-25",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/fusebox",
+        "name": {
+          "en-US": "fusebox"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "fusebox-approached"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000026",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "display": {
+        "en-US": "experienced"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/weather/test-26",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/weather",
+        "name": {
+          "en-US": "weather"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "lightning"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000027",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "display": {
+        "en-US": "experienced"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/weather/test-27",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/weather",
+        "name": {
+          "en-US": "weather"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "thunder"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000028",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/witnessed",
+      "display": {
+        "en-US": "witnessed"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/haunting/test-28",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+        "name": {
+          "en-US": "haunting"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "door-slam"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000029",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/witnessed",
+      "display": {
+        "en-US": "witnessed"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/haunting/test-29",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+        "name": {
+          "en-US": "haunting"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "haunting-event"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000030",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/opened",
+      "display": {
+        "en-US": "opened"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/map/test-30",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/map",
+        "name": {
+          "en-US": "map"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "map-opened"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000031",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/switched",
+      "display": {
+        "en-US": "switched"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/map/test-31",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/map",
+        "name": {
+          "en-US": "map"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "map-floor-switched"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000032",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/changed",
+      "display": {
+        "en-US": "changed"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/sound/test-32",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/sound",
+        "name": {
+          "en-US": "sound"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "hum-changed"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000033",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/survived",
+      "display": {
+        "en-US": "survived"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/session/test-33",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/session",
+        "name": {
+          "en-US": "session"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "survival-snapshot"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000034",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "display": {
+        "en-US": "earned"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/score/test-34",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/score",
+        "name": {
+          "en-US": "score"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "time-points-earned"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000035",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "display": {
+        "en-US": "earned"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/score/test-35",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/score",
+        "name": {
+          "en-US": "score"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "room-points-earned"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000036",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/achieved",
+      "display": {
+        "en-US": "achieved"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/score/total-score-recorded",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/score",
+        "name": {
+          "en-US": "total-score"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "total-score-recorded"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000037",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/escaped",
+      "display": {
+        "en-US": "escaped"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/ending/test-37",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/ending",
+        "name": {
+          "en-US": "ending"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "session-escaped"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000038",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/failed",
+      "display": {
+        "en-US": "failed"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/ending/test-38",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/ending",
+        "name": {
+          "en-US": "ending"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "session-failed"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000039",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/completed",
+      "display": {
+        "en-US": "completed"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/session/test-39",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/session",
+        "name": {
+          "en-US": "session"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "session-completed"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000040",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/restarted",
+      "display": {
+        "en-US": "restarted"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/session/test-40",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/session",
+        "name": {
+          "en-US": "session"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "session-restarted"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000041",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "display": {
+        "en-US": "collected"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/loot-collected",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "loot-collected"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "loot-collected"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000042",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "display": {
+        "en-US": "earned"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/loot-score-earned",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "loot-score-earned"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "loot-score-earned"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000043",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/used",
+      "display": {
+        "en-US": "used"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/monster-potion-used",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "monster-potion-used"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "monster-potion-used"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000044",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/lost",
+      "display": {
+        "en-US": "lost"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/effect/monster-transformation-ended",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+        "name": {
+          "en-US": "transformation"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "monster-transformation-ended"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000045",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/summoned",
+      "display": {
+        "en-US": "summoned"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/familiar/familiar-summoned",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/familiar",
+        "name": {
+          "en-US": "familiar-summoned"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "familiar-summoned"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000046",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "display": {
+        "en-US": "experienced"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/effect/familiar-blocked",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+        "name": {
+          "en-US": "protection"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "familiar-blocked",
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/familiar/test-familiar-blocked",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/familiar",
+            "name": {
+              "en-US": "familiar"
+            }
+          }
+        }
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000047",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/lost",
+      "display": {
+        "en-US": "lost"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/familiar/familiar-dismissed",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/familiar",
+        "name": {
+          "en-US": "familiar"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "familiar-dismissed"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000048",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/extended",
+      "display": {
+        "en-US": "extended"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/familiar/familiar-extended",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/familiar",
+        "name": {
+          "en-US": "familiar-extended"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "familiar-extended"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000049",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "display": {
+        "en-US": "experienced"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/boss-omen",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "boss-omen"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "boss-omen"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000050",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "display": {
+        "en-US": "encountered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/boss-appeared",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "boss-appeared"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "boss-appeared"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000051",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "display": {
+        "en-US": "suffered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/effect/boss-hit",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+        "name": {
+          "en-US": "damage"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/example-boss-hit",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+            "name": {
+              "en-US": "monster"
+            }
+          }
+        },
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "boss-hit"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000052",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/defeated",
+      "display": {
+        "en-US": "defeated"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/boss-defeated",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "boss-defeated"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "boss-defeated"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000053",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/averted",
+      "display": {
+        "en-US": "averted"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/boss-averted",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "boss-averted"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "boss-averted"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000054",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "display": {
+        "en-US": "collected"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/test-54",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "skeleton-key-collected"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "skeleton-key-collected"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000055",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/unlocked",
+      "display": {
+        "en-US": "unlocked"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/door/test-55",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/door",
+        "name": {
+          "en-US": "skeleton-key-used"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "skeleton-key-used"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000056",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/witnessed",
+      "display": {
+        "en-US": "witnessed"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/haunting/test-56",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+        "name": {
+          "en-US": "jumpscare-triggered"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "jumpscare-triggered"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000057",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/moved",
+      "display": {
+        "en-US": "moved"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/room/test-57",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+        "name": {
+          "en-US": "destination room"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/from": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/room/related-jumpscare-teleported",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+            "name": {
+              "en-US": "room"
+            }
+          }
+        },
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/haunting/related-jumpscare-teleported",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+            "name": {
+              "en-US": "haunting"
+            }
+          }
+        },
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "jumpscare-teleported"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000058",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "display": {
+        "en-US": "experienced"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/test-58",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "classic-boss-spawned"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "classic-boss-spawned"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000059",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "display": {
+        "en-US": "encountered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/test-59",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "classic-boss-encounter"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "classic-boss-encounter"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000060",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "display": {
+        "en-US": "suffered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/effect/test-60",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+        "name": {
+          "en-US": "damage"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/related-classic-boss-hit",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+            "name": {
+              "en-US": "enemy"
+            }
+          }
+        },
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "classic-boss-hit"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000061",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/witnessed",
+      "display": {
+        "en-US": "witnessed"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/test-61",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "wolfman-transformed"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "wolfman-transformed"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000062",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "display": {
+        "en-US": "encountered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/test-62",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "zombie-pack-encounter"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "zombie-pack-encounter"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000063",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "display": {
+        "en-US": "suffered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/effect/test-63",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+        "name": {
+          "en-US": "damage"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/related-zombie-bite",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+            "name": {
+              "en-US": "enemy"
+            }
+          }
+        },
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "zombie-bite"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000064",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "display": {
+        "en-US": "experienced"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/haunting/test-64",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+        "name": {
+          "en-US": "room-electrified"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "room-electrified"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000065",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/used",
+      "display": {
+        "en-US": "used"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/test-65",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "garlic-used"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "garlic-used"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000066",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/completed",
+      "display": {
+        "en-US": "completed"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/quest/test-66",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/quest",
+        "name": {
+          "en-US": "quest-completed"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "quest-completed"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000067",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "display": {
+        "en-US": "earned"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/experience/test-67",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/experience",
+        "name": {
+          "en-US": "xp-earned"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "xp-earned"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000068",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/advanced",
+      "display": {
+        "en-US": "advanced"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/level/test-68",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/level",
+        "name": {
+          "en-US": "player-leveled-up"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "player-leveled-up"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000069",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "display": {
+        "en-US": "earned"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/test-69",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "quest-loot-granted"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "quest-loot-granted"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000070",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "display": {
+        "en-US": "experienced"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/test-70",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "classic-boss-departed"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "classic-boss-departed"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000071",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "display": {
+        "en-US": "collected"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/test-71",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "spell-collected"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "spell-collected"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000072",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/used",
+      "display": {
+        "en-US": "used"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/item/test-72",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+        "name": {
+          "en-US": "spell-cast"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "spell-cast"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000073",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "display": {
+        "en-US": "encountered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/rat-encounter",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+        "name": {
+          "en-US": "rat"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "rat-encounter"
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000074",
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://github.com/blakeplock/ScaryMansion",
+        "name": "test-player-001"
+      }
+    },
+    "verb": {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "display": {
+        "en-US": "suffered"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/effect/rat-bitten",
+      "definition": {
+        "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+        "name": {
+          "en-US": "damage"
+        }
+      }
+    },
+    "context": {
+      "registration": "11111111-2222-4333-8444-555555555555",
+      "contextActivities": {
+        "category": [
+          {
+            "objectType": "Activity",
+            "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          }
+        ]
+      },
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id": "11111111-2222-4333-8444-555555555555",
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id": "rat-bitten",
+        "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by": {
+          "objectType": "Activity",
+          "id": "https://github.com/blakeplock/ScaryMansion/xapi/instances/enemy/rat",
+          "definition": {
+            "type": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+            "name": {
+              "en-US": "rat"
+            }
+          }
+        }
+      }
+    },
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds": 120
+      }
+    }
+  }
+]

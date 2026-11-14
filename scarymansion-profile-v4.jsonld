@@ -1,0 +1,4261 @@
+{
+  "@context": "https://w3id.org/xapi/profiles/context",
+  "id": "https://github.com/blakeplock/ScaryMansion/xapi/profile",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+    "en": "ScaryMansion Active Experience Telemetry Profile"
+  },
+  "definition": {
+    "en": "Version 4 actor-centered xAPI vocabulary; active predicates, directly identified experiential objects, and xAPI Prepositions for documented indirect-object relations. Historical v1 telemetry remains valid and unaltered. v4 statement templates require a stable event-id extension to disambiguate events that share active verbs."
+  },
+  "seeAlso": "https://github.com/blakeplock/ScaryMansion/tree/main/xapi",
+  "versions": [
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "wasRevisionOf": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/v1"
+      ],
+      "generatedAtTime": "2026-11-12T04:40:00Z"
+    }
+  ],
+  "author": {
+    "type": "Organization",
+    "name": "ScaryMansion Project",
+    "url": "https://github.com/blakeplock/ScaryMansion"
+  },
+  "concepts": [
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/started",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "started"
+      },
+      "definition": {
+        "en": "Started a session"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/entered",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "entered"
+      },
+      "definition": {
+        "en": "Entered a room"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/explored",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "explored"
+      },
+      "definition": {
+        "en": "First visited a room"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/ascended",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "ascended"
+      },
+      "definition": {
+        "en": "Ascended a floor"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/descended",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "descended"
+      },
+      "definition": {
+        "en": "Descended a floor"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "collected"
+      },
+      "definition": {
+        "en": "Collected an item"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/unlocked",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "unlocked"
+      },
+      "definition": {
+        "en": "Unlocked a door"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/attempted",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "attempted"
+      },
+      "definition": {
+        "en": "Attempted a blocked door"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "encountered"
+      },
+      "definition": {
+        "en": "Encountered an enemy"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/evaded",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "evaded"
+      },
+      "definition": {
+        "en": "Evaded an enemy"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/restored",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "restored"
+      },
+      "definition": {
+        "en": "Restored electrical power"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/witnessed",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "witnessed"
+      },
+      "definition": {
+        "en": "Witnessed a haunting"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/opened",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "opened"
+      },
+      "definition": {
+        "en": "Opened the map"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/switched",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "switched"
+      },
+      "definition": {
+        "en": "Switched map floors"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/survived",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "survived"
+      },
+      "definition": {
+        "en": "Survived elapsed time"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "earned"
+      },
+      "definition": {
+        "en": "Earned points"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/escaped",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "escaped"
+      },
+      "definition": {
+        "en": "Escaped mansion"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/failed",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "failed"
+      },
+      "definition": {
+        "en": "Died during a session"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/completed",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "completed"
+      },
+      "definition": {
+        "en": "Completed a session"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/restarted",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "restarted"
+      },
+      "definition": {
+        "en": "Restarted game"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/changed",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "changed"
+      },
+      "definition": {
+        "en": "Changed hum preference"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/approached",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "approached"
+      },
+      "definition": {
+        "en": "Approached a fusebox"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "experienced"
+      },
+      "definition": {
+        "en": "Experienced an environmental event"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/discovered",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "discovered"
+      },
+      "definition": {
+        "en": "Discovered a hidden passage"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/session",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "session"
+      },
+      "definition": {
+        "en": "Session of ScaryMansion"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/mansion",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "mansion"
+      },
+      "definition": {
+        "en": "ScaryMansion game world"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "room"
+      },
+      "definition": {
+        "en": "Individual persistent room"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/floor",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "floor"
+      },
+      "definition": {
+        "en": "One of four mansion floors"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/door",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "door"
+      },
+      "definition": {
+        "en": "Door or passage"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/staircase",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "staircase"
+      },
+      "definition": {
+        "en": "Floor transition staircase"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "enemy"
+      },
+      "definition": {
+        "en": "Ghost, spider or banshee"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "item"
+      },
+      "definition": {
+        "en": "Collectible key, candle, amulet or antidote"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/fusebox",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "fusebox"
+      },
+      "definition": {
+        "en": "Cellar electrical panel"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/map",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "map"
+      },
+      "definition": {
+        "en": "Exploration map"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/score",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "score"
+      },
+      "definition": {
+        "en": "Session score or score component"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/weather",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "weather"
+      },
+      "definition": {
+        "en": "Lightning or thunderstorm event"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "haunting"
+      },
+      "definition": {
+        "en": "Supernatural house event"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/ending",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "ending"
+      },
+      "definition": {
+        "en": "Escape or death outcome"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/sound",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "sound"
+      },
+      "definition": {
+        "en": "Game audio setting"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "session id"
+      },
+      "definition": {
+        "en": "UUID correlating events from one play session; value type string. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/room-id",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "room id"
+      },
+      "definition": {
+        "en": "Persistent integer room identifier; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/room-kind",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "room kind"
+      },
+      "definition": {
+        "en": "Room category such as bedroom, attic, cellar or stairwell; value type string. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/floor-index",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "floor index"
+      },
+      "definition": {
+        "en": "Cellar=-1, ground=0, second=1, attic=2; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/grid-x",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "grid x"
+      },
+      "definition": {
+        "en": "Persistent horizontal room grid coordinate; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/grid-y",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "grid y"
+      },
+      "definition": {
+        "en": "Persistent vertical room grid coordinate; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/elapsed-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "elapsed seconds"
+      },
+      "definition": {
+        "en": "Elapsed active play seconds, excluding initial-entry time; value type number. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/total-score",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "total score"
+      },
+      "definition": {
+        "en": "Total points from time and exploration; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/time-points",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "time points"
+      },
+      "definition": {
+        "en": "Ten points per complete second in mansion; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/room-points",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "room points"
+      },
+      "definition": {
+        "en": "Five hundred points per unique room beyond starting foyer; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/unique-rooms",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "unique rooms"
+      },
+      "definition": {
+        "en": "Unique visited rooms including foyer; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/health",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "health"
+      },
+      "definition": {
+        "en": "Remaining health, integer zero through three; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/keys-held",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "keys held"
+      },
+      "definition": {
+        "en": "Brass keys currently held; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/poison-remaining-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "poison remaining seconds"
+      },
+      "definition": {
+        "en": "Remaining poison countdown; value type number. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/slow-remaining-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "slow remaining seconds"
+      },
+      "definition": {
+        "en": "Remaining banshee slowdown countdown; value type number. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/blackout-active",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "blackout active"
+      },
+      "definition": {
+        "en": "Whether house lights are out; value type boolean. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/candle-held",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "candle held"
+      },
+      "definition": {
+        "en": "Whether candle has been collected; value type boolean. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/lights-restored",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "lights restored"
+      },
+      "definition": {
+        "en": "Whether cellar fusebox has restored lights; value type boolean. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/haunting-intensity",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "haunting intensity"
+      },
+      "definition": {
+        "en": "Internal house haunting intensity on zero to one scale; value type number. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/enemy-aggression",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "enemy aggression"
+      },
+      "definition": {
+        "en": "Internal enemy aggression on zero to one scale; value type number. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/enemy-species",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "enemy species"
+      },
+      "definition": {
+        "en": "ghost, spider or banshee; value type string. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-kind",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "event kind"
+      },
+      "definition": {
+        "en": "Specific hazard, environmental, or haunting event subtype; value type string. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/door-side",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "door side"
+      },
+      "definition": {
+        "en": "Door direction north east south or west; value type string. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/visibility-radius-tiles",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "visibility radius tiles"
+      },
+      "definition": {
+        "en": "Square radius of illumination in sixteen-pixel tiles; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/outcome",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "outcome"
+      },
+      "definition": {
+        "en": "Session outcome escape, death or restart; value type string. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/score-rule-version",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "score rule version"
+      },
+      "definition": {
+        "en": "Version identifier for scoring rules to permit fair comparisons; value type string. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/route-step",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "route step"
+      },
+      "definition": {
+        "en": "Ordinal navigation step within play session; value type integer. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/novel-room",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "novel room"
+      },
+      "definition": {
+        "en": "Whether the room was previously unexplored this session; value type boolean. Units and enumerations are documented in xapi/README.md."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/used",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "used"
+      },
+      "definition": {
+        "en": "Used a previously collected consumable"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/summoned",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "summoned"
+      },
+      "definition": {
+        "en": "Summoned a timed familiar"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/blocked",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "blocked"
+      },
+      "definition": {
+        "en": "Blocked an enemy contact"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/ended",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "ended"
+      },
+      "definition": {
+        "en": "Ended a timed magical effect"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/familiar",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "familiar"
+      },
+      "definition": {
+        "en": "Summoned companion that follows and can intercept contact"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "effect"
+      },
+      "definition": {
+        "en": "Temporary magical transformation or protection"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/loot-type",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "loot type"
+      },
+      "definition": {
+        "en": "Identity of a collected loot item"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/points-earned",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "points earned"
+      },
+      "definition": {
+        "en": "Bonus points awarded for loot collection"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/bonus-points",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "bonus points"
+      },
+      "definition": {
+        "en": "Cumulative item-derived score points"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/rat-ward-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "rat ward seconds"
+      },
+      "definition": {
+        "en": "Remaining seconds of rat immunity"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/banshee-ward-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "banshee ward seconds"
+      },
+      "definition": {
+        "en": "Remaining seconds of banshee immunity"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/monster-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "monster seconds"
+      },
+      "definition": {
+        "en": "Remaining seconds of monster form"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/imp-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "imp seconds"
+      },
+      "definition": {
+        "en": "Remaining seconds of the imp familiar"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/monster-potions-held",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "monster potions held"
+      },
+      "definition": {
+        "en": "Unconsumed monster potions held"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/duration-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "duration seconds"
+      },
+      "definition": {
+        "en": "Starting duration in seconds of a magic effect"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/potions-left",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "potions left"
+      },
+      "definition": {
+        "en": "Number of monster potions left in inventory"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/block-cooldown-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "block cooldown seconds"
+      },
+      "definition": {
+        "en": "Seconds before a familiar can intercept another hit"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/extended",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "extended"
+      },
+      "definition": {
+        "en": "Extended a summoned familiar's duration"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/defeated",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "defeated"
+      },
+      "definition": {
+        "en": "Defeated the active boss by disconnecting power or another blackout"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/averted",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "averted"
+      },
+      "definition": {
+        "en": "Prevented a boss from spawning by interrupting its activation"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/imp-remaining-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "imp remaining seconds"
+      },
+      "definition": {
+        "en": "Remaining active lifetime of familiar after extending"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/reveal-delay-seconds",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "reveal delay seconds"
+      },
+      "definition": {
+        "en": "Duration before the boss enters after electrical omens"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/speed",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "speed"
+      },
+      "definition": {
+        "en": "Boss speed in world units per second"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/damage",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "damage"
+      },
+      "definition": {
+        "en": "Boss damage per successful attack"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/health-lost",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "health lost"
+      },
+      "definition": {
+        "en": "Player hearts lost to a boss attack"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/defeat-method",
+      "type": "ResultExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "defeat method"
+      },
+      "definition": {
+        "en": "Whether the circuit breaker or second blackout ended the boss"
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "suffered"
+      },
+      "definition": {
+        "en": "The player suffered a negative effect, such as injury or slowed movement; the cause is a typed indirect object in a by preposition."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/moved",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "moved"
+      },
+      "definition": {
+        "en": "The player moved to the destination Activity, optionally from another Activity and by a cause when the causal relationship is recorded."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/lost",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "lost"
+      },
+      "definition": {
+        "en": "The player lost a beneficial state or effect, such as illumination; the object identifies the lost effect."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "event identifier"
+      },
+      "definition": {
+        "en": "Machine-readable stable gameplay event identifier for this v4 statement, independent of human-readable verb display. A string equal to an event specified by a v4 Statement Template."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/quest",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "quest"
+      },
+      "definition": {
+        "en": "ScaryMansion quest instance involved in a player action."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/experience",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "experience"
+      },
+      "definition": {
+        "en": "ScaryMansion experience instance involved in a player action."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/level",
+      "type": "ActivityType",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "level"
+      },
+      "definition": {
+        "en": "ScaryMansion level instance involved in a player action."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/advanced",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "advanced"
+      },
+      "definition": {
+        "en": "Actor progressed to a new level in the game."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/achieved",
+      "type": "Verb",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "achieved"
+      },
+      "definition": {
+        "en": "The player achieved a total measured outcome, represented as the Score Activity and result rather than per-point accrual."
+      }
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-sequence",
+      "type": "ContextExtension",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "event sequence"
+      },
+      "definition": {
+        "en": "One-based positive integer incremented for every successfully journaled v4 statement within a single context.registration. Resets to 1 for each new registration; use for chronological ordering when timestamps collide."
+      }
+    }
+  ],
+  "templates": [
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-started",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "session started"
+      },
+      "definition": {
+        "en": "Occurs after a player enters three initials and presses Enter; initializes registration and session."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/started",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/session",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "session-started"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/room-entered",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "room entered"
+      },
+      "definition": {
+        "en": "Record every entered room including revisits and transitions, preserving floor and x/y coordinates."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/entered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "room-entered"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/room-explored",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "room explored"
+      },
+      "definition": {
+        "en": "First visit to a room, not a revisit; the foyer must not award room points."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/explored",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "room-explored"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/stair-ascended",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "stair ascended"
+      },
+      "definition": {
+        "en": "ScaryMansion event stair-ascended; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/ascended",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/staircase",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "stair-ascended"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/stair-descended",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "stair descended"
+      },
+      "definition": {
+        "en": "ScaryMansion event stair-descended; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/descended",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/staircase",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "stair-descended"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/key-collected",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "key collected"
+      },
+      "definition": {
+        "en": "ScaryMansion event key-collected; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "key-collected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/amulet-collected",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "amulet collected"
+      },
+      "definition": {
+        "en": "ScaryMansion event amulet-collected; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "amulet-collected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/candle-collected",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "candle collected"
+      },
+      "definition": {
+        "en": "ScaryMansion event candle-collected; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "candle-collected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/antidote-collected",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "antidote collected"
+      },
+      "definition": {
+        "en": "ScaryMansion event antidote-collected; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "antidote-collected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/door-unlocked",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "door unlocked"
+      },
+      "definition": {
+        "en": "ScaryMansion event door-unlocked; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/unlocked",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/door",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "door-unlocked"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/door-blocked",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "door blocked"
+      },
+      "definition": {
+        "en": "ScaryMansion event door-blocked; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/attempted",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/door",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "door-blocked"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/hidden-passage",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "hidden passage"
+      },
+      "definition": {
+        "en": "ScaryMansion event hidden-passage; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/discovered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/door",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "hidden-passage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/ghost-encounter",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "ghost encounter"
+      },
+      "definition": {
+        "en": "ScaryMansion event ghost-encounter; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "ghost-encounter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/spider-encounter",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "spider encounter"
+      },
+      "definition": {
+        "en": "ScaryMansion event spider-encounter; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "spider-encounter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/banshee-encounter",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "banshee encounter"
+      },
+      "definition": {
+        "en": "ScaryMansion event banshee-encounter; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "banshee-encounter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/ghost-hit",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "ghost hit"
+      },
+      "definition": {
+        "en": "ScaryMansion event ghost-hit; see xapi/README.md for trigger semantics and required measurements. V4: the actor is the player; the direct object is damage; prepositional extensions identify other participants when recorded."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "ghost-hit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/ghost-relocation",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "ghost relocation"
+      },
+      "definition": {
+        "en": "ScaryMansion event ghost-relocation; see xapi/README.md for trigger semantics and required measurements. V4: the actor is the player; the direct object is destination room; prepositional extensions identify other participants when recorded."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/moved",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/from']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "ghost-relocation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/spider-bitten",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "spider bitten"
+      },
+      "definition": {
+        "en": "ScaryMansion event spider-bitten; see xapi/README.md for trigger semantics and required measurements. V4: player suffered poisoning by a spider; poisoning is the direct Effect Activity, and the spider is the typed `by` indirect Activity."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "spider-bitten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/banshee-slowed",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "banshee slowed"
+      },
+      "definition": {
+        "en": "ScaryMansion event banshee-slowed; see xapi/README.md for trigger semantics and required measurements. V4: the actor is the player; the direct object is slowing; prepositional extensions identify other participants when recorded."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "banshee-slowed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/antidote-used",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "antidote used"
+      },
+      "definition": {
+        "en": "ScaryMansion event antidote-used; see xapi/README.md for trigger semantics and required measurements. V4: the actor is the player; the direct object is antidote; prepositional extensions identify other participants when recorded."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/used",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "antidote-used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/enemy-evaded",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "enemy evaded"
+      },
+      "definition": {
+        "en": "Proposed instrumentation: enemy had aggro and later separated/left room without contact; cannot be inferred solely from an encounter."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/evaded",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "enemy-evaded"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/blackout",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "blackout"
+      },
+      "definition": {
+        "en": "Occurs at 90 elapsed active seconds unless power was already restored."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "blackout"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/candle-extinguished",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "candle extinguished"
+      },
+      "definition": {
+        "en": "ScaryMansion event candle-extinguished; see xapi/README.md for trigger semantics and required measurements. V4: the actor is the player; the direct object is candle illumination; prepositional extensions identify other participants when recorded."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/lost",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "candle-extinguished"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/power-restored",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "power restored"
+      },
+      "definition": {
+        "en": "Occurs only after the player approaches the fusebox in its unlocked cellar room."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/restored",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/fusebox",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "power-restored"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/fusebox-approached",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "fusebox approached"
+      },
+      "definition": {
+        "en": "ScaryMansion event fusebox-approached; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/approached",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/fusebox",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "fusebox-approached"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/lightning",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "lightning"
+      },
+      "definition": {
+        "en": "ScaryMansion event lightning; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/weather",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "lightning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/thunder",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "thunder"
+      },
+      "definition": {
+        "en": "ScaryMansion event thunder; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/weather",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "thunder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/door-slam",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "door slam"
+      },
+      "definition": {
+        "en": "ScaryMansion event door-slam; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/witnessed",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "door-slam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/haunting-event",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "haunting event"
+      },
+      "definition": {
+        "en": "ScaryMansion event haunting-event; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/witnessed",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "haunting-event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/map-opened",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "map opened"
+      },
+      "definition": {
+        "en": "ScaryMansion event map-opened; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/opened",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/map",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "map-opened"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/map-floor-switched",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "map floor switched"
+      },
+      "definition": {
+        "en": "ScaryMansion event map-floor-switched; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/switched",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/map",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "map-floor-switched"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/hum-changed",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "hum changed"
+      },
+      "definition": {
+        "en": "ScaryMansion event hum-changed; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/changed",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/sound",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "hum-changed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/survival-snapshot",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "survival snapshot"
+      },
+      "definition": {
+        "en": "Periodic bounded telemetry to quantify survival periods without generating one statement per frame."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/survived",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/session",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "survival-snapshot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/time-points-earned",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "time points earned"
+      },
+      "definition": {
+        "en": "Emitted for time-based score accrual in bounded intervals; 10 per full second (can aggregate)."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/score",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "time-points-earned"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/room-points-earned",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "room points earned"
+      },
+      "definition": {
+        "en": "Emitted once per newly visited non-foyer room; 500 points; not on revisits."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/score",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "room-points-earned"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/total-score-recorded",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "total score recorded"
+      },
+      "definition": {
+        "en": "ScaryMansion event total-score-recorded; see xapi/README.md for trigger semantics and required measurements. V4 experiential semantics: player achieved total-score."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/achieved",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/score",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "total-score-recorded"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-escaped",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "session escaped"
+      },
+      "definition": {
+        "en": "ScaryMansion event session-escaped; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/escaped",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/ending",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "session-escaped"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-failed",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "session failed"
+      },
+      "definition": {
+        "en": "ScaryMansion event session-failed; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/failed",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/ending",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "session-failed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-completed",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "session completed"
+      },
+      "definition": {
+        "en": "Exactly one terminal session record with total points and time/room point components. No new time accrual afterward."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/completed",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/session",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "session-completed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-restarted",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "session restarted"
+      },
+      "definition": {
+        "en": "ScaryMansion event session-restarted; see xapi/README.md for trigger semantics and required measurements."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/restarted",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/session",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "session-restarted"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/loot-collected",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "loot collected"
+      },
+      "definition": {
+        "en": "A room item is picked up once, including rat poison, gold, jewelry, potion or grimoire."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "loot-collected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/loot-score-earned",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "loot score earned"
+      },
+      "definition": {
+        "en": "Gold or haunted jewelry awards a fixed bonus to the live and final score."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "loot-score-earned"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/monster-potion-used",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "monster potion used"
+      },
+      "definition": {
+        "en": "Player deliberately activates a held monster potion using P."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/used",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "monster-potion-used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/monster-transformation-ended",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "monster transformation ended"
+      },
+      "definition": {
+        "en": "The monster transformation ends after 60 seconds of play. V4 experiential semantics: player lost transformation."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/lost",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "monster-transformation-ended"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/familiar-summoned",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "familiar summoned"
+      },
+      "definition": {
+        "en": "A grimoire summons a protective imp for 90 seconds."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/summoned",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/familiar",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "familiar-summoned"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/familiar-blocked",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "familiar blocked"
+      },
+      "definition": {
+        "en": "The imp intercepts a nearby threat, subject to a six-second cooldown. V4 experiential semantics: player experienced protection."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "familiar-blocked"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by']",
+          "presence": "included"
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/familiar-dismissed",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "familiar dismissed"
+      },
+      "definition": {
+        "en": "The imp's 90-second lifespan ends. V4 experiential semantics: player lost familiar."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/lost",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/familiar",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "familiar-dismissed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/familiar-extended",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "familiar extended"
+      },
+      "definition": {
+        "en": "A second grimoire extends the existing imp by 90 seconds without resetting its cooldown."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/extended",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/familiar",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "familiar-extended"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/boss-omen",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "boss omen"
+      },
+      "definition": {
+        "en": "Electrical wall activity starts after the first blackout, before the boss arrives."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "boss-omen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/boss-appeared",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "boss appeared"
+      },
+      "definition": {
+        "en": "Frankenstein begins pursuing the player after its delayed arrival."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "boss-appeared"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/boss-hit",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "boss hit"
+      },
+      "definition": {
+        "en": "Frankenstein causes two health damage when contact is not blocked. V4: the actor is the player; the direct object is damage; prepositional extensions identify other participants when recorded."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "boss-hit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/boss-defeated",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "boss defeated"
+      },
+      "definition": {
+        "en": "An active Frankenstein boss is terminated by a breaker or second blackout."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/defeated",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "boss-defeated"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/boss-averted",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "boss averted"
+      },
+      "definition": {
+        "en": "Electrical activation is interrupted before Frankenstein arrives."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/averted",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "boss-averted"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/skeleton-key-collected",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "skeleton key collected"
+      },
+      "definition": {
+        "en": "Player-centered event: skeleton-key-collected. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "skeleton-key-collected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/skeleton-key-used",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "skeleton key used"
+      },
+      "definition": {
+        "en": "Player-centered event: skeleton-key-used. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/unlocked",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/door",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "skeleton-key-used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/jumpscare-triggered",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "jumpscare triggered"
+      },
+      "definition": {
+        "en": "Player-centered event: jumpscare-triggered. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/witnessed",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "jumpscare-triggered"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/jumpscare-teleported",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "jumpscare teleported"
+      },
+      "definition": {
+        "en": "Player-centered event: jumpscare-teleported. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/moved",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/room",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/from']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "jumpscare-teleported"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/classic-boss-spawned",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "classic boss spawned"
+      },
+      "definition": {
+        "en": "Player-centered event: classic-boss-spawned. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "classic-boss-spawned"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/classic-boss-encounter",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "classic boss encounter"
+      },
+      "definition": {
+        "en": "Player-centered event: classic-boss-encounter. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "classic-boss-encounter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/classic-boss-hit",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "classic boss hit"
+      },
+      "definition": {
+        "en": "Player-centered event: classic-boss-hit. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "classic-boss-hit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/wolfman-transformed",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "wolfman transformed"
+      },
+      "definition": {
+        "en": "Player-centered event: wolfman-transformed. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/witnessed",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "wolfman-transformed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/zombie-pack-encounter",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "zombie pack encounter"
+      },
+      "definition": {
+        "en": "Player-centered event: zombie-pack-encounter. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "zombie-pack-encounter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/zombie-bite",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "zombie bite"
+      },
+      "definition": {
+        "en": "Player-centered event: zombie-bite. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "zombie-bite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/room-electrified",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "room electrified"
+      },
+      "definition": {
+        "en": "Player-centered event: room-electrified. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/haunting",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "room-electrified"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/garlic-used",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "garlic used"
+      },
+      "definition": {
+        "en": "Player-centered event: garlic-used. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/used",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "garlic-used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/quest-completed",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "quest completed"
+      },
+      "definition": {
+        "en": "Player-centered event: quest-completed. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/completed",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/quest",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "quest-completed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/xp-earned",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "xp earned"
+      },
+      "definition": {
+        "en": "Player-centered event: xp-earned. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/experience",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "xp-earned"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/player-leveled-up",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "player leveled up"
+      },
+      "definition": {
+        "en": "Player-centered event: player-leveled-up. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/advanced",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/level",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "player-leveled-up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/quest-loot-granted",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "quest loot granted"
+      },
+      "definition": {
+        "en": "Player-centered event: quest-loot-granted. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/earned",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "quest-loot-granted"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/classic-boss-departed",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "classic boss departed"
+      },
+      "definition": {
+        "en": "Player-centered event: classic-boss-departed. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/experienced",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "classic-boss-departed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/spell-collected",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "spell collected"
+      },
+      "definition": {
+        "en": "Player-centered event: spell-collected. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/collected",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "spell-collected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/spell-cast",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "spell cast"
+      },
+      "definition": {
+        "en": "Player-centered event: spell-cast. The actor is the player; use the active verb and typed Activity object; indirect objects are explicit when required."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/used",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/item",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "spell-cast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/rat-encounter",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "rat encounter"
+      },
+      "definition": {
+        "en": "The player encountered a rat."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/encountered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/enemy",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "rat-encounter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/rat-bitten",
+      "type": "StatementTemplate",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "prefLabel": {
+        "en": "rat bitten"
+      },
+      "definition": {
+        "en": "The player suffered damage by a rat; the rat is the typed causal Activity."
+      },
+      "verb": "https://github.com/blakeplock/ScaryMansion/xapi/verbs/suffered",
+      "objectActivityType": "https://github.com/blakeplock/ScaryMansion/xapi/activity-types/effect",
+      "rules": [
+        {
+          "location": "$.context.registration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.contextActivities.category[*].id",
+          "presence": "included",
+          "any": [
+            "https://github.com/blakeplock/ScaryMansion/xapi/v4"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/session-id']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://github.com/blakeplock/ScaryMansion/xapi/extensions/event-id']",
+          "presence": "included",
+          "any": [
+            "rat-bitten"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by']",
+          "presence": "included"
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/navigation-action",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "navigation action"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "alternates": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/room-entered",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/room-explored",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/stair-ascended",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/stair-descended",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/map-opened",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/map-floor-switched",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/door-unlocked",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/door-blocked",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/hidden-passage"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/navigation-loop",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "navigation loop"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "zeroOrMore": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/navigation-action"
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/hazard-action",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "hazard action"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "alternates": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/ghost-encounter",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/spider-encounter",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/banshee-encounter",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/ghost-hit",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/ghost-relocation",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/spider-bitten",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/banshee-slowed",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/enemy-evaded",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/antidote-used",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/boss-omen",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/boss-appeared",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/boss-hit",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/boss-defeated",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/boss-averted"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/hazard-loop",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "hazard loop"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "zeroOrMore": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/hazard-action"
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/environment-action",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "environment action"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "alternates": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/blackout",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/candle-collected",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/candle-extinguished",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/power-restored",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/fusebox-approached",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/lightning",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/thunder",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/door-slam",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/haunting-event",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/hum-changed"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/environment-loop",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "environment loop"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "zeroOrMore": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/environment-action"
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/scoring-action",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "scoring action"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "alternates": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/time-points-earned",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/room-points-earned",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/survival-snapshot",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/total-score-recorded",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/loot-score-earned"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/scoring-loop",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "scoring loop"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "zeroOrMore": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/scoring-action"
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/play-action",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "play action"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "alternates": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/navigation-action",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/hazard-action",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/environment-action",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/scoring-action",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/key-collected",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/amulet-collected",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/antidote-collected",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/loot-action",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/familiar-extended"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/play-loop",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "play loop"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "zeroOrMore": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/play-action"
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/terminal-outcome",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "terminal outcome"
+      },
+      "definition": {
+        "en": "Behavioral trajectory of ScaryMansion play."
+      },
+      "alternates": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-escaped",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-failed",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-restarted"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/session-trajectory",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": true,
+      "prefLabel": {
+        "en": "session trajectory"
+      },
+      "definition": {
+        "en": "Primary complete-session pattern. All recorded actions belong to one registration. Compare scores and outcomes in terminal statement, not pattern existence alone."
+      },
+      "sequence": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-started",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/play-loop",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/terminal-outcome",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/total-score-recorded",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-completed"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/efficient-exploration",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "efficient exploration"
+      },
+      "definition": {
+        "en": "Analytic motif: successive new-room discoveries separated by navigation; compute unique rooms per minute and backtracking externally."
+      },
+      "sequence": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/room-explored",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/navigation-loop",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/room-explored"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/hazard-recovery",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "hazard recovery"
+      },
+      "definition": {
+        "en": "Analytic motif for poison recovery; also examine transitions following ghost relocation and banshee slowdowns."
+      },
+      "sequence": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/hazard-action",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/navigation-loop",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/antidote-used"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/blackout-recovery",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "blackout recovery"
+      },
+      "definition": {
+        "en": "Analytic motif for candle acquisition and cellar fusebox restoration after blackout."
+      },
+      "sequence": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/blackout",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/play-loop",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/candle-collected",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/play-loop",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/power-restored"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/escape-strategy",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "escape strategy"
+      },
+      "definition": {
+        "en": "Analytic motif describing completed successful escape; compare to failed runs after controlling for play time."
+      },
+      "sequence": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-started",
+        "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/play-loop",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-escaped",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/session-completed"
+      ]
+    },
+    {
+      "id": "https://github.com/blakeplock/ScaryMansion/xapi/patterns/v4/loot-action",
+      "type": "Pattern",
+      "inScheme": "https://github.com/blakeplock/ScaryMansion/xapi/v4",
+      "primary": false,
+      "prefLabel": {
+        "en": "loot and familiar action"
+      },
+      "definition": {
+        "en": "Pickup, active power, or contact prevention in the loot system."
+      },
+      "alternates": [
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/loot-collected",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/monster-potion-used",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/monster-transformation-ended",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/familiar-summoned",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/familiar-blocked",
+        "https://github.com/blakeplock/ScaryMansion/xapi/templates/v4/familiar-dismissed"
+      ]
+    }
+  ]
+}
